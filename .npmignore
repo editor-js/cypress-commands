@@ -1,0 +1,7 @@
+cypress/
+.github/
+.idea/
+webpack.config.js
+tsconfig.json
+cypress.json
+.eslintrc
