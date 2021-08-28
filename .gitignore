@@ -112,6 +112,5 @@ cypress/videos
 
 dist/
 plugin.js
-cypress/plugins/plugin.js
 
 .idea/

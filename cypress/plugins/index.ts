@@ -11,12 +11,12 @@
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 
-const path = require('path');
+import path from 'path';
 
 /**
  * @type {Cypress.PluginConfig}
  */
-module.exports = (on: any, config: any) => {
+module.exports = (on: Cypress.PluginEvents, config: Cypress.PluginConfig) => {
   const absPathToFixture = path.resolve(__dirname, '../fixtures/index.html');
   const relPathToFixture = path.relative(process.cwd(), absPathToFixture);
 

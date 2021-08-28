@@ -12,7 +12,6 @@
     "build:declarations": "tsc -p ./ --emitDeclarationOnly",
     "build:commands": "webpack",
     "build:plugin": "tsc -p ./cypress/plugins",
-    "postinstall": "ln -sf ./cypress/plugins/index.js ./plugin.js",
     "test": "cypress run",
     "lint": "eslint cypress/ --ext .ts"
   },
@@ -23,7 +22,7 @@
   "devDependencies": {
     "@editorjs/editorjs": "^2.22.2",
     "@types/node": "^16.4.5",
-    "cypress": "^8.0.0",
+    "cypress": "^8.3.1",
     "eslint": "^7.31.0",
     "eslint-config-codex": "^1.6.2",
     "ts-loader": "^9.2.4",

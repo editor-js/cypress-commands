@@ -24,10 +24,10 @@ import '@editorjs/cypress-commands'
 
 | Name | Description |
 | ---- | ----------- |
-| initEditorJS | Loads fixture html page with initalized EditorJS |
-| getEditor | Yelds EditorJS HTMLElement container |
-| getBlock | Yelds EditorJS block HTMLElement |
-| openBlockSettings | Opens settings popover for Block and yelds it's HTMLElement |
+| [initEditorJS](./cypress/support/commands/initEditorJS/README.md) | Loads fixture html page with initalized EditorJS |
+| [getEditor](./cypress/support/commands/getEditor/README.md) | Yelds EditorJS HTMLElement container |
+| [getBlock](./cypress/support/commands/getBlock/README.md) | Yelds EditorJS block HTMLElement |
+| [openBlockSettings](./cypress/support/commands/openBlockSettings/README.md) | Opens settings popover for Block and yelds it's HTMLElement |
 
 ## Access to EditorJS instance
 
