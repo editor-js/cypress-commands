@@ -1,6 +1,6 @@
 {
   "name": "@editorjs/cypress-commands",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "description": "Set of Cypress commands for Editor.js testing",
   "main": "dist/commands.js",
   "types": "dist/commands.d.ts",
